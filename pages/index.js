@@ -49,7 +49,7 @@ export default function Home() {
         }
       },
       {
-        breakpoint: 500,
+        breakpoint: 520,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1
@@ -76,7 +76,7 @@ export default function Home() {
 
       <section className="hero relative min-h-[600px] flex flex-col justify-center items-start md:items-center text-white"
         style={{ backgroundColor: 'rgb(99, 191, 11)', backgroundImage: "linear-gradient(90deg, rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url(images/hero-bg.jpeg)" }}>
-        <h1 className='text-4xl lg:text-5xl md:text-center px-[5%] md:px-[15%] lg:px-0 font-semibold lg:font-bold font-montserratAlternates'>Welcome To FNF pharmacist DiSpensary Store</h1>
+        <h1 className='text-4xl lg:text-5xl md:text-center px-[5%] md:px-[15%] lg:px-0 font-semibold lg:font-bold font-montserratAlternates'>Welcome To FNF Pharmacy DiSpensary Store</h1>
         <p className="text-[1.25rem] px-[5%] md:px-[15%] py-5 md:text-center">Whether You Have To Buy Kush (Weed) Online For Medical Purposes Or For Recreation; You Will Get Genuine And Original Marijuana Products From Us, Best Kush Store!</p>
 
         <div className="pt-8 px-[5%] flex flex-col md:flex-row items-center gap-4 w-full">
@@ -93,7 +93,7 @@ export default function Home() {
 
         </div>
 
-        <div className="absolute bottom-8">
+        <div className="absolute bottom-8 left-[50%] translate-x-[-50%]">
           <a href="#m">
             <TfiAngleDown size={30} />
           </a>
