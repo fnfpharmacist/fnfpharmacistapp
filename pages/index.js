@@ -70,7 +70,7 @@ export default function Home() {
         <title>FNF PHARMACY</title>
       </Head>
 
-      <div className="fixed top-[50%] right-0 translate-x-[45px] translate-y-[-50%] z-50 -rotate-90 uppercase bg-[#00A560] py-1 px-4 text-white font-bold text-xs rounded-t">contact us</div>
+      <Link href="#contact" className="fixed top-[50%] right-0 translate-x-[45px] translate-y-[-50%] z-50 -rotate-90 uppercase bg-[#00A560] py-1 px-4 text-white font-bold text-xs rounded-t">contact us</Link>
 
       <Header />
 
@@ -272,7 +272,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="px-[4%] lg:px-[15%] my-16 flex flex-col lg:flex-row font-montserrat">
+        <section id="contact" className="px-[4%] lg:px-[15%] my-16 flex flex-col lg:flex-row font-montserrat">
 
           <div className="lg:w-1/2 border shadow-md rounded-md rounded-r-none py-8 px-10 flex gap-5">
             <div className=""><BsGift size={50} /></div>
