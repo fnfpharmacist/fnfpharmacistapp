@@ -6,8 +6,10 @@ import { GiBowlingPin, GiPalmTree } from 'react-icons/gi';
 import { RiUser6Fill } from 'react-icons/ri';
 import { FaStoreAlt, FaBars, FaStarHalfAlt, FaRegEye } from 'react-icons/fa';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 export default function Header() {
+  const router = useRouter()
   return (
     <header className="font-['Montserrat, sans-seri'] text-white">
       <div className="">
@@ -67,6 +69,7 @@ export default function Header() {
 
           <form role="search" method="get" className="hidden lg:flex items-center gap-3 text-black" action="" onSubmit={(e) => {
             e.preventDefault()
+            router.push('/search_error')
           }}>
             <div className="">
               <select className="w-[60px] rounded-full outline-none bg-gray-200 py-[.5rem] px-3 text-sm" defaultValue={'DEFAULT'}>
@@ -110,6 +113,8 @@ export default function Header() {
 
         <form role="search" method="get" className="flex lg:hidden items-center gap-3 bg-black/90 py-4 px-[3%] text-white" action="" onSubmit={(e) => {
           e.preventDefault()
+          router.push('/search_error')
+
         }}>
           <div className="">
             <select className="w-[30px] rounded-full outline-none bg-white/20 text-black py-[.5rem] px-3 text-sm" defaultValue={'DEFAULT'}>
