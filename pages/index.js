@@ -49,7 +49,7 @@ export default function Home() {
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 500,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1
@@ -67,7 +67,7 @@ export default function Home() {
   return (
     <div className='font-montserrat'>
       <Head>
-        <title>FNF pharmacist</title>
+        <title>FNF PHARMACY</title>
       </Head>
 
       <div className="fixed top-[50%] right-0 translate-x-[45px] translate-y-[-50%] z-50 -rotate-90 uppercase bg-[#00A560] py-1 px-4 text-white font-bold text-xs rounded-t">contact us</div>
@@ -102,16 +102,16 @@ export default function Home() {
 
       <main id="m" className="pt-8">
         <section id="store" className="px-[1%] lg:px-[15%] gap-5 flex-wrap md:flex-nowrap flex justify-center md:justify-between font-montserratAlternates text-white">
-          <div className="w-full mx-[1%] md:w-[330px] h-[200px] md:h-[160px] py-1 px-2 grid place-items-center bg-[length:400px_220px] hover:bg-[length:400px_250px] bg-center bg-no-repeat"
+          <div className="w-full mx-[1%] md:w-[330px] h-[200px] md:h-[160px] py-1 px-2 grid place-items-center bg-[length:100%_220px] hover:bg-[length:110%_250px] bg-center bg-no-repeat"
             style={{ backgroundColor: 'rgb(99, 191, 11)', backgroundImage: "linear-gradient(90deg, rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(images/img15b.jpg)", transition: 'all .7s' }}></div>
 
-          <div className="w-full mx-[1%] md:w-[330px] h-[160px] py-1 px-2 grid place-items-center bg-[length:400px_220px] hover:bg-[length:400px_250px] bg-center bg-no-repeat"
+          <div className="w-full mx-[1%] md:w-[330px] h-[160px] py-1 px-2 grid place-items-center bg-[length:100%_220px] hover:bg-[length:110%_250px] bg-center bg-no-repeat"
             style={{ backgroundColor: 'rgb(99, 191, 11)', backgroundImage: "linear-gradient(90deg, rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url(images/img17.jpeg)", transition: 'all .7s' }}>
             <h1 className='text-[25px] font-semibold'>Weed (Kush)</h1>
             <p className="text-center text-[18px]">Best QUALITY Weed Leaves Available. Delivery In Massive Quantity At Best Prices</p>
           </div>
 
-          <div className="w-full mx-[1%] md:w-[330px] h-[160px] py-1 px-2 grid place-items-center bg-[length:400px_220px] hover:bg-[length:400px_250px] bg-center bg-no-repeat"
+          <div className="w-full mx-[1%] md:w-[330px] h-[160px] py-1 px-2 grid place-items-center bg-[length:100%_220px] hover:bg-[length:110%_250px] bg-center bg-no-repeat"
             style={{ backgroundColor: 'rgb(99, 191, 11)', backgroundImage: "linear-gradient(90deg, rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url(images/img16.webp)", transition: 'all .7s' }}>
             <h1 className='text-[25px] font-semibold'>Weed (Kush)</h1>
             <p className="text-center text-[18px]">Best QUALITY Weed Leaves Available. Delivery In Massive Quantity At Best Prices</p>
