@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "/images/Super-Lemon-Haze-Strain-320x320.webp",
+    "category": "QUALITY WEED",
+    "description": "Super Lemon Haze Strain",
+    "price": "280.00 – £1,665.00",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 2,
+    "imageUrl": "/images/My-Favorite-Strains-Sour-Diesel-Weedist-640x420-1-320x320.webp",
+    "category": "QUALITY WEED",
+    "description": "Sour Diesel Strain",
+    "price": "230.00",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 3,
+    "imageUrl": "/images/sour-apple-auto-320x320.webp",
+    "category": "QUALITY WEED",
+    "description": "Sour Apple Auto Feminised Seeds – 10",
+    "price": "99.99",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 4,
+    "imageUrl": "/images/trainwreck_4-320x320.webp",
+    "category": "QUALITY WEED",
+    "description": "Trainwreck Auto Feminised Seeds – 10",
+    "price": "99.99",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 5,
+    "imageUrl": "/images/Purple-Kush-Strain-320x320.webp",
+    "category": "INDICA",
+    "description": "Purple Kush Strain",
+    "price": "250.00",
+    "star": 0,
+    "badge": "Sales!"
+  },
+  {
+    "id": 6,
+    "imageUrl": "/images/opuntia-ficus-indica-seeds-50-kg-320x320.webp",
+    "category": "QUALITY WEED",
+    "description": "Organic Opuntia Ficus Indica Seeds 800 Kg",
+    "price": "4,700.00 – £24,000.00",
+    "star": 0,
+    "badge": "New"
+  },
+  {
+    "id": 7,
+    "imageUrl": "/images/kosher-kush_o0hgl3yuxtkbvlrw-400x400.webp",
+    "category": "QUALITY WEED",
+    "description": "Kosher Kush Seeds",
+    "price": "10.99",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 8,
+    "imageUrl": "/images/graines-cannabis-indica-zmoothiez-6-320x320.webp",
+    "category": "QUALITY WEED",
+    "description": "Gorilla Cookies Auto Feminised Seeds",
+    "price": "20.99",
+    "star": 0,
+    "badge": ""
+  }
+]

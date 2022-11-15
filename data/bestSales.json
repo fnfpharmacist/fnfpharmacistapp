@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "/images/tweedle-farms-sour-tangie-terpsolate-1-gram-92.8percent-total-cannabinoids__78607-400x400 (1).jpg",
+    "category": "DABS",
+    "description": "Sour Tangie – Terpsolate • 1 gram • 92.8% Total Cannabinoids",
+    "price": "19.99",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 2,
+    "imageUrl": "/images/img25.png",
+    "category": "DABS",
+    "description": "HHC & CBD Wax / Dabs – 2 Gram",
+    "price": "49.99",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 3,
+    "imageUrl": "/images/Buudabomb-Green-Apple-e1615815715856-400x400.jpeg",
+    "category": "EDIBLES",
+    "description": "Buudabomb 100mg",
+    "price": "12.00",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 4,
+    "imageUrl": "/images/Euphoria-Extractions-Shatter-Chews-PartyPack-320x320.png",
+    "category": "PARTY PACK",
+    "description": "Euphoria Extractions Party Pack Shatter Chews 600mg (Indica)",
+    "price": "45.00",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 5,
+    "imageUrl": "/images/Buudabomb-Green-Apple-e1615815715856-400x400.jpeg",
+    "category": "EDIBLES",
+    "description": "Royalty Rosin – CBD Gummies (300mg CBD)",
+    "price": "23.00",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 6,
+    "imageUrl": "/images/Royalty-front-600x600-1-320x320.webp",
+    "category": "EDIBLES",
+    "description": "Royalty Rosin – Amplified Sour Gummies (300mg THC)",
+    "price": "23.00",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 7,
+    "imageUrl": "/images/JUMBO-COLA-320x320.webp",
+    "category": "EDIBLES",
+    "description": "Ether Edibles Jumbo Cola (300mg)",
+    "price": "24.00",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 8,
+    "imageUrl": "/images/300mg-400x400 (1).webp",
+    "category": "EDIBLES",
+    "description": "Bonafide – 300mg Blue Raspberry Fruit Cubes (Indica)",
+    "price": "30.19",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 9,
+    "imageUrl": "/images/500MG-320x320.webp",
+    "category": "GUMMES",
+    "description": "Bonafide – 500mg Space Stars (Indica)",
+    "price": "22.00",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 10,
+    "imageUrl": "/images/BRSS_1000mg-1-600x533-1-320x320.webp",
+    "category": "GUMMES",
+    "description": "Bonafide – 1000mg Space Stars (Indica)",
+    "price": "40.00",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 11,
+    "imageUrl": "/images/TwistedExtractsGrapeHalleysNEW-600x600-1-320x320.jpeg",
+    "category": "EDIBLES",
+    "description": "Twisted Extracts Grape Halley’s Comet Jelly Bomb (40mg THC + 40mg CBD)",
+    "price": "16.00",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 12,
+    "imageUrl": "/images/TwistedMango-600x600-1-320x320.jpeg",
+    "category": "EDIBLES",
+    "description": "Twisted Extracts Mango Jelly Bomb (80mg THC)",
+    "price": "14.00",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 13,
+    "imageUrl": "/images/tweedle-farms-key-lime-pie-high-cbd-wax-1-gram-94.5percent-total-cannabinoids__82921 (1).jpg",
+    "category": "DABS",
+    "description": "Key Lime Pie – High CBD Wax • 1 gram • 94.5% Total Cannabinoids",
+    "price": "29.99",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 14,
+    "imageUrl": "/images/tweedle-farms-gmo-cookies-high-cbd-wax-1-gram-92.3percent-total-cannabinoids__15548-400x400.jpg",
+    "category": "DABS",
+    "description": "GMO Cookies – High CBD Wax • 1 gram • 92.3% Total Cannabinoids",
+    "price": "29.99",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 15,
+    "imageUrl": "/images/tweedle-farms-pink-runtz-high-cbd-wax-1-gram-94.4percent-total-cannabinoids__93094-400x400.jpg",
+    "category": "DABS",
+    "description": "Pink Runtz – High CBD Wax • 1 gram • 94.4% Total Cannabinoids",
+    "price": "29.99",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 16,
+    "imageUrl": "/images/tweedle-farms-granddaddy-purple-terpsolate-96.8percent-total-cannabinoids__24716-400x400.jpg",
+    "category": "DABS",
+    "description": "Granddaddy Purple – Terpsolate • 96.8% Total Cannabinoids",
+    "price": "19.99",
+    "star": 0,
+    "badge": ""
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "/images/tweedle-farms-key-lime-pie-high-cbd-wax-1-gram-94.5percent-total-cannabinoids__82921.jpg",
+    "title": "Key Lime Pie - High CBD Wax • 1 Gram • 94.5% Total Cannabinoids",
+    "price": "29.99",
+    "star": 0
+  },
+  {
+    "id": 2,
+    "imageUrl": "/images/tweedle-farms-gmo-cookies-high-cbd-wax-1-gram-92.3percent-total-cannabinoids__15548-400x400.jpg",
+    "title": "GMO Cookies - High CBD Wax • 1 Gram • 92.3% Total Cannabinoids",
+    "price": "29.99",
+    "star": 0
+  },
+  {
+    "id": 3,
+    "imageUrl": "/images/tweedle-farms-pink-runtz-high-cbd-wax-1-gram-94.4percent-total-cannabinoids__93094-400x400.jpg",
+    "title": "Pink Runtz - High CBD Wax • 1 Gram • 94.4% Total Cannabinoids",
+    "price": "29.99",
+    "star": 0
+  },
+  {
+    "id": 4,
+    "imageUrl": "/images/tweedle-farms-granddaddy-purple-terpsolate-96.8percent-total-cannabinoids__24716-400x400.jpg",
+    "title": "Granddaddy Purple - Terpsolate • 96.8% Total Cannabinoids",
+    "price": "19.99",
+    "star": 0
+  }
+]

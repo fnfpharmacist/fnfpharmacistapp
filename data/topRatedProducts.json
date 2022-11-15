@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "/images/colombian-cocaine-100x100.jpeg",
+    "title": "Colombian Cocaine 100%",
+    "price": "355.00 – £70,990.00",
+    "star": 5
+  },
+  {
+    "id": 2,
+    "imageUrl": "/images/18aba4fc-a630-4a78-8d22-2948db86f64a-100x100.jpg",
+    "title": "Wonka Chocolate Bar (80g)",
+    "price": "5.30",
+    "star": 5
+  },
+  {
+    "id": 3,
+    "imageUrl": "/images/img1.jpg",
+    "title": "BC Vapes Distillate Cartridge – Indica 1.1g (Multiple Strains)",
+    "price": "50.00",
+    "star": 5
+  }
+]

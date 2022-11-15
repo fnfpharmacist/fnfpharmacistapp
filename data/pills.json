@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "/images/oxycotine.webp",
+    "category": "PAIN KILLERS",
+    "description": "Buy Oxycontin 80mg",
+    "price": "600.00",
+    "star": 0,
+    "badge": "Sales!"
+  },
+  {
+    "id": 2,
+    "imageUrl": "/images/oxycontin-40mg-400x400.png",
+    "category": "PAIN KILLERS",
+    "description": "Oxycontin (Oxycodone) 40mg",
+    "price": "225.00 – £900.00",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 3,
+    "imageUrl": "/images/img18.jpg",
+    "category": "PAIN KILLERS",
+    "description": "Buy Oxycodone Without Prescription",
+    "price": "4.00",
+    "star": 4.5,
+    "badge": ""
+  },
+  {
+    "id": 4,
+    "imageUrl": "/images/percocet-addiction-facts-statistics-320x320.png",
+    "category": "PAIN KILLERS",
+    "description": "Buy Oxycodone 30mg Online Without Prescription",
+    "price": "24.00",
+    "star": 0,
+    "badge": ""
+  },
+  {
+    "id": 5,
+    "imageUrl": "/images/5b6f0878e5165xanax-copy-320x300.jpg",
+    "category": "ANTIDEPRESSANTS",
+    "description": "Order Xanax Without Prescription",
+    "price": "155.00 – £325.00",
+    "star": 3.5,
+    "badge": "New"
+  },
+  {
+    "id": 6,
+    "imageUrl": "/images/page_1_thumb_large-320x320.jpg",
+    "category": "PILLS",
+    "description": "Adderall 30mg In USA Without Prescription",
+    "price": "625.00",
+    "star": 3,
+    "badge": ""
+  },
+  {
+    "id": 7,
+    "imageUrl": "/images/download-8.jpg",
+    "category": "ANTIDEPRESSANTS",
+    "description": "Buy Sertraline 50mg Online",
+    "price": "9.60 – £16.20",
+    "star": 2,
+    "badge": ""
+  },
+  {
+    "id": 8,
+    "imageUrl": "/images/Screenshot_20220201-214709_Instagram-320x320.jpg",
+    "category": "PAIN KILLERS",
+    "description": "Buy Ibuprofen Tablet Online US Next Day Delivery",
+    "price": "15.00",
+    "star": 2,
+    "badge": ""
+  }
+]

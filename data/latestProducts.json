@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "/images/img13.jpg",
+    "title": "Delta 8 Disposable Cartridge 1000mg Pineapple Express",
+    "price": "24.99",
+    "star": 3.5
+  },
+  {
+    "id": 2,
+    "imageUrl": "/images/img21.jpg",
+    "title": "Candy King Synthetic Tropic Bubblegum Twin Pack Ejuice (Bottle Size) 120ml (2x60ml)",
+    "price": "14.10 – £15.68",
+    "star": 3
+  },
+  {
+    "id": 3,
+    "imageUrl": "/images/img8.jpg",
+    "title": "Cocaine Capsules",
+    "price": "155.00 – £5,110.00",
+    "star": 3.5
+  }
+]

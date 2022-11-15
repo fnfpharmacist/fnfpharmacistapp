@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "/images/img24.jpg",
+    "category": "COCAINE",
+    "count": 6
+  },
+  {
+    "id": 2,
+    "imageUrl": "/images/img25.png",
+    "category": "DABS",
+    "count": 6
+  },
+  {
+    "id": 3,
+    "imageUrl": "/images/img26.jpeg",
+    "category": "DMT VAPES",
+    "count": 12
+  },
+  {
+    "id": 4,
+    "imageUrl": "/images/img27.webp",
+    "category": "EDIBLES",
+    "count": 42
+  },
+  {
+    "id": 5,
+    "imageUrl": "/images/29.webp",
+    "category": "GUMMIES",
+    "count": 13
+  },
+  {
+    "id": 6,
+    "imageUrl": "/images/30.jpg",
+    "category": "KETAMINE",
+    "count": 7
+  },
+  {
+    "id": 7,
+    "imageUrl": "/images/31.jpg",
+    "category": "MUSHROOM CHOCOLATE BARS",
+    "count": 8
+  },
+  {
+    "id": 8,
+    "imageUrl": "/images/32.webp",
+    "category": "PARTY PACK",
+    "count": 31
+  },
+  {
+    "id": 9,
+    "imageUrl": "/images/img16.webp",
+    "category": "PILLS",
+    "count": 8
+  },
+  {
+    "id": 10,
+    "imageUrl": "/images/img15.jpg",
+    "category": "PSYCHODELICS",
+    "count": 22
+  },
+  {
+    "id": 11,
+    "imageUrl": "/images/33.jpeg",
+    "category": "QUALITY WEED",
+    "count": 25
+  },
+  {
+    "id": 12,
+    "imageUrl": "/images/34.jpg",
+    "category": "SHROOM VIPES",
+    "count": 5
+  },
+  {
+    "id": 13,
+    "imageUrl": "/images/35.jpg",
+    "category": "STEROIDS",
+    "count": 6
+  }
+]

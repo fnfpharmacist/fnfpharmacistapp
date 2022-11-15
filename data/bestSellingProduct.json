@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "/images/img13.jpg",
+    "category": "SHROOM VAPES",
+    "description": "Delta 8 Disposable Cartridge 1000mg Pineapple Express",
+    "price": "24.99",
+    "star": 3.5,
+    "badge": ""
+  },
+  {
+    "id": 2,
+    "imageUrl": "/images/img21.webp",
+    "category": "DMT VAPES",
+    "description": "Candy King Synthetic Tropic Bubblegum Twin Pack Ejuice (bottle size) 120ml (2x60ml)",
+    "price": "14.10 - 15.68",
+    "star": 3,
+    "badge": ""
+  },
+  {
+    "id": 3,
+    "imageUrl": "/images/img8.jpg",
+    "category": "COCAINE",
+    "description": "Cocaine Capsules",
+    "price": "15.00 - 110.00",
+    "star": 3.5,
+    "badge": ""
+  },
+  {
+    "id": 4,
+    "imageUrl": "/images/img22.jpg",
+    "category": "DMT VAPES",
+    "description": "DMT .5ml Purecybin – 300mg DMT",
+    "price": "190.00",
+    "star": 4,
+    "badge": ""
+  },
+  {
+    "id": 5,
+    "imageUrl": "/images/img18.jpg",
+    "category": "PAIN KILLER",
+    "description": "Buy Oxycodone without prescription",
+    "price": "4.00",
+    "star": 4.5,
+    "badge": ""
+  },
+  {
+    "id": 6,
+    "imageUrl": "/images/img19.webp",
+    "category": "MUSHROOM CHOCOLATE BARS",
+    "description": "Buy Amul Dark Chocolate",
+    "price": "2.55",
+    "star": 0,
+    "badge": "New"
+  },
+  {
+    "id": 7,
+    "imageUrl": "/images/img1.jpg",
+    "category": "SHROOM VAPES",
+    "description": "BC Vapes Distillate Cartridge – Indica 1.1g (multiple strains)",
+    "price": "50.00",
+    "star": 5,
+    "badge": ""
+  },
+  {
+    "id": 8,
+    "imageUrl": "/images/img20.jpg",
+    "category": "ANABOLIC STEROIDS",
+    "description": "Buy Omnadren 250 Polish Sustanon (Jelfa Poland) 5x1ml x 250mg",
+    "price": "30.00",
+    "star": 3.5,
+    "badge": ""
+  }
+]
