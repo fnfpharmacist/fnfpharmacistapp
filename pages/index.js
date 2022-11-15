@@ -76,10 +76,10 @@ export default function Home() {
 
       <section className="hero relative min-h-[600px] flex flex-col justify-center items-start md:items-center text-white"
         style={{ backgroundColor: 'rgb(99, 191, 11)', backgroundImage: "linear-gradient(90deg, rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url(images/hero-bg.jpeg)" }}>
-        <h1 className='text-4xl lg:text-5xl md:text-center px-[5%] md:px-[15%] lg:px-0 font-semibold lg:font-bold font-montserratAlternates'>Welcome To FNF Pharmacy DiSpensary Store</h1>
+        <h1 className='text-4xl lg:text-5xl md:text-center px-[5%] md:px-[15%] lg:px-0 font-semibold lg:font-bold font-montserratAlternates'>Welcome To FnF Pharmacy</h1>
         <p className="text-[1.25rem] px-[5%] md:px-[15%] py-5 md:text-center">Whether You Have To Buy Kush (Weed) Online For Medical Purposes Or For Recreation; You Will Get Genuine And Original Marijuana Products From Us, Best Kush Store!</p>
 
-        <div className="pt-8 px-[5%] flex flex-col md:flex-row items-center gap-4 w-full">
+        <div className="pt-8 px-[5%] flex flex-col md:flex-row items-center justify-center gap-4 w-full">
 
           <div className="flex items-center gap-2 bg-[#06A710] hover:bg-[#037a0a] transition-all rounded-md cursor-pointer w-full md:w-[262px] lg:w-[296px] py-2 justify-center font-bold">
             <BsCart2 />
