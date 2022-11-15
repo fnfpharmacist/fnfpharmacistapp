@@ -74,19 +74,19 @@ export default function Home() {
 
       <Header />
 
-      <section className="hero relative min-h-[600px] flex flex-col justify-center items-center text-white"
+      <section className="hero relative min-h-[600px] flex flex-col justify-center items-start md:items-center text-white"
         style={{ backgroundColor: 'rgb(99, 191, 11)', backgroundImage: "linear-gradient(90deg, rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url(images/hero-bg.jpeg)" }}>
-        <h1 className='text-4xl lg:text-5xl text-center px-[1%] md:px-[15%] lg:px-0 font-semibold lg:font-bold font-montserratAlternates'>Welcome To FNF pharmacist DiSpensary Store</h1>
-        <p className="text-[1.25rem] px-[1%] md:px-[15%] py-5 text-center">Whether You Have To Buy Kush (Weed) Online For Medical Purposes Or For Recreation; You Will Get Genuine And Original Marijuana Products From Us, Best Kush Store!</p>
+        <h1 className='text-4xl lg:text-5xl md:text-center px-[5%] md:px-[15%] lg:px-0 font-semibold lg:font-bold font-montserratAlternates'>Welcome To FNF pharmacist DiSpensary Store</h1>
+        <p className="text-[1.25rem] px-[5%] md:px-[15%] py-5 md:text-center">Whether You Have To Buy Kush (Weed) Online For Medical Purposes Or For Recreation; You Will Get Genuine And Original Marijuana Products From Us, Best Kush Store!</p>
 
-        <div className="pt-8 flex flex-col md:flex-row items-center gap-4">
+        <div className="pt-8 px-[5%] flex flex-col md:flex-row items-center gap-4 w-full">
 
-          <div className="flex items-center gap-2 bg-[#06A710] hover:bg-[#037a0a] transition-all rounded-md cursor-pointer w-[262px] lg:w-[296px] py-2 justify-center font-bold">
+          <div className="flex items-center gap-2 bg-[#06A710] hover:bg-[#037a0a] transition-all rounded-md cursor-pointer w-full md:w-[262px] lg:w-[296px] py-2 justify-center font-bold">
             <BsCart2 />
             <span>Browse Quality Meds</span>
           </div>
 
-          <div className="flex items-center gap-2 bg-[#B20000] hover:bg-[#790101] transition-all rounded-md cursor-pointer w-[262px] lg:w-[296px] py-2 justify-center font-bold">
+          <div className="flex items-center gap-2 bg-[#B20000] hover:bg-[#790101] transition-all rounded-md cursor-pointer w-full md:w-[262px] lg:w-[296px] py-2 justify-center font-bold">
             <RiUser6Fill />
             <span>About Us</span>
           </div>
@@ -102,17 +102,17 @@ export default function Home() {
 
       <main id="m" className="pt-8">
         <section id="store" className="px-[1%] lg:px-[15%] gap-5 flex-wrap md:flex-nowrap flex justify-center md:justify-between font-montserratAlternates text-white">
-          <div className="w-[330px] h-[160px] py-1 px-2 grid place-items-center bg-[length:350px_200px] hover:bg-[length:400px_250px] bg-center bg-no-repeat"
-            style={{ backgroundColor: 'rgb(99, 191, 11)', backgroundImage: "linear-gradient(90deg, rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url(images/img15b.jpg)", transition: 'all .7s' }}></div>
+          <div className="w-full mx-[1%] md:w-[330px] h-[200px] md:h-[160px] py-1 px-2 grid place-items-center bg-[length:400px_220px] hover:bg-[length:400px_250px] bg-center bg-no-repeat"
+            style={{ backgroundColor: 'rgb(99, 191, 11)', backgroundImage: "linear-gradient(90deg, rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(images/img15b.jpg)", transition: 'all .7s' }}></div>
 
-          <div className="w-[330px] h-[160px] py-1 px-2 grid place-items-center bg-[length:350px_200px] hover:bg-[length:400px_250px] bg-center bg-no-repeat"
-            style={{ backgroundColor: 'rgb(99, 191, 11)', backgroundImage: "linear-gradient(90deg, rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url(images/img17.jpeg)", transition: 'all .7s' }}>
+          <div className="w-full mx-[1%] md:w-[330px] h-[160px] py-1 px-2 grid place-items-center bg-[length:400px_220px] hover:bg-[length:400px_250px] bg-center bg-no-repeat"
+            style={{ backgroundColor: 'rgb(99, 191, 11)', backgroundImage: "linear-gradient(90deg, rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url(images/img17.jpeg)", transition: 'all .7s' }}>
             <h1 className='text-[25px] font-semibold'>Weed (Kush)</h1>
             <p className="text-center text-[18px]">Best QUALITY Weed Leaves Available. Delivery In Massive Quantity At Best Prices</p>
           </div>
 
-          <div className="w-[330px] h-[160px] py-1 px-2 grid place-items-center bg-[length:350px_200px] hover:bg-[length:400px_250px] bg-center bg-no-repeat"
-            style={{ backgroundColor: 'rgb(99, 191, 11)', backgroundImage: "linear-gradient(90deg, rgba(0,0,0, 0.6), rgba(0,0,0, 0.6)), url(images/img16.webp)", transition: 'all .7s' }}>
+          <div className="w-full mx-[1%] md:w-[330px] h-[160px] py-1 px-2 grid place-items-center bg-[length:400px_220px] hover:bg-[length:400px_250px] bg-center bg-no-repeat"
+            style={{ backgroundColor: 'rgb(99, 191, 11)', backgroundImage: "linear-gradient(90deg, rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url(images/img16.webp)", transition: 'all .7s' }}>
             <h1 className='text-[25px] font-semibold'>Weed (Kush)</h1>
             <p className="text-center text-[18px]">Best QUALITY Weed Leaves Available. Delivery In Massive Quantity At Best Prices</p>
           </div>
@@ -159,10 +159,10 @@ export default function Home() {
             </legend>
           </fieldset>
 
-          <div className="flex gap-5 lg:justify-between flex-wrap overflow-hidden">
+          <div className="flex lg:justify-between flex-wrap overflow-hidden md:gap-5">
             {psychedelics.map(product => {
               return (
-                <ProductCard key={product?.id} product={product} />
+                <ProductCardRep key={product?.id} product={product} />
               )
             })}
           </div>
@@ -175,10 +175,10 @@ export default function Home() {
             </legend>
           </fieldset>
 
-          <div className="flex justify-between flex-wrap overflow-hidden gap-5">
+          <div className="flex justify-between flex-wrap overflow-hidden md:gap-5">
             {kush.map(product => {
               return (
-                <ProductCard key={product?.id} product={product} />
+                <ProductCardRep key={product?.id} product={product} />
               )
             })}
           </div>
@@ -191,17 +191,17 @@ export default function Home() {
             </legend>
           </fieldset>
 
-          <div className="flex justify-between flex-wrap overflow-hidden gap-5">
+          <div className="flex justify-between flex-wrap overflow-hidden md:gap-5">
             {pills.map(product => {
               return (
-                <ProductCard key={product?.id} product={product} />
+                <ProductCardRep key={product?.id} product={product} />
               )
             })}
           </div>
         </section>
 
         <section className="h-[500px] grid place-items-center my-20 bg-no-repeat bg-cover bg-center bg-[#065eac]" style={{ backgroundColor: 'rgb(99, 191, 11)', backgroundImage: "linear-gradient(90deg, rgba(0,0,0, 0.8), rgba(0,0,0, 0.8)), url(images/My-Favorite-Strains-Sour-Diesel-Weedist-640x420-1-320x320.webp)" }}>
-          <div className="text-center px-[23%]">
+          <div className="text-center px-[5%] md:px-[23%]">
             <h1 className="text-xl text-[#fff] font-montserratAlternates font-semibold mb-5">
               ARE YOUR PRODUCTS LICENCED?
             </h1>
@@ -211,7 +211,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="bestSales" className="px-[6%] lg:px-[15%]">
+        <section id="bestSales" className="px-[1%] md:px-[6%] lg:px-[15%]">
           <fieldset className="border-t border-6 border-[#272625]/30 text-[#0578A1] mt-16 mb-12 font-semibold text-sm md:text-xl">
             <legend className="mx-auto px-4 flex items-center gap-3 font-montserratAlternates">
               <RiShoppingBasketFill /> BEST SALES THIS WEEK</legend>
@@ -425,14 +425,50 @@ const ProductCard = ({ product }) => {
   </>)
 }
 
+const ProductCardRep = ({ product }) => {
+
+  return (<>
+    <div className="w-1/2 md:w-[31%] lg:w-[250px] font-montserrat border hover:shadow-md">
+      <div className="h-[150px] md:h-[200px] lg:h-[250px] relative">
+        <Image src={product.imageUrl} alt="" width={400} height={1} style={{ height: '100%' }} />
+        {product.badge && <div className="absolute top-7 -left-2 w-[50px] h-[50px] rounded-full overflow-hidden bg-[#065EAC] text-white font-bold grid place-items-center text-[10px] uppercase">
+          {product.badge}
+        </div>}
+      </div>
+      <div className="flex flex-col h-[170px] justify-between text-center pt-2 pb-4 px-[1%]">
+        <div className="">
+          <p className="text-[#171616] text-[10.2px] md:text-[11px] ">{product?.category}</p>
+          {/* <Link > */}
+          <Link href="/error" as={`/${product.category}`} className="text-[#065EAC] text-[13.6px] md:text-[14px]">
+            <p style={{ lineHeight: '1.3' }}>{product?.description}</p>
+          </Link>
+          {/* </Link> */}
+        </div>
+        <div className="">
+          {product?.star >= 1 && <div className="">
+            <Rating
+              initialValue={product.star}
+              precision={0.5}
+            />
+          </div>}
+          <div className="text-[#111] text-[13.6px] md:text-[14px] font-bold ">£{product?.price}</div>
+          <div className='my-1'>
+            <Link href="/error" as={`/${product.category}`} className="uppercase border-2 font-bold py-1 px-[13.8px] md:px-5 border-[#446084] text-[#446084] hover:bg-[#065EAC] hover:text-white text-[10.88px] md:text-[.8rem]">Add to Cart</Link>
+          </div>
+        </div>
+      </div>
+    </div>
+  </>)
+}
+
 const CircleProductCard = ({ product }) => {
   return (<>
     <div className="group">
-      <div className="w-[170px] h-[170px] md:w-[250px] md:h-[250px] rounded-full overflow-hidden relative">
+      <div className="w-[150px] h-[150px] md:w-[250px] md:h-[250px] rounded-full overflow-hidden relative">
         <Image src={product.imageUrl} alt="" width={400} height={1} style={{ height: '100%' }} />
         <div className="absolute top-0 left-0 w-full h-full bg-black/20"></div>
         <Link href="/error" as={`/${product.category}`} className="absolute z-50 bottom-[50px] text-center w-full font-montserratAlternates uppercase">
-          <div className="text-[1.3rem] text-white">{product.category}</div>
+          <div className="text-[.8rem] md:text-[1.3rem] text-white">{product.category}</div>
           <div className="text-[.8rem] h-1 group-hover:h-full overflow-hidden transition-all duration-700 text-white/75">{product.count} PRODUCTS</div>
         </Link>
       </div>
