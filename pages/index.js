@@ -113,8 +113,8 @@ export default function Home() {
 
           <div className="w-full mx-[1%] md:w-[330px] h-[160px] py-1 px-2 grid place-items-center bg-[length:100%_220px] hover:bg-[length:110%_250px] bg-center bg-no-repeat"
             style={{ backgroundColor: 'rgb(99, 191, 11)', backgroundImage: "linear-gradient(90deg, rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url(images/img16.webp)", transition: 'all .7s' }}>
-            <h1 className='text-[25px] font-semibold'>Weed (Kush)</h1>
-            <p className="text-center text-[18px]">Best QUALITY Weed Leaves Available. Delivery In Massive Quantity At Best Prices</p>
+            <h1 className='text-[25px] font-semibold'>MEDS(DRUGS)</h1>
+            <p className="text-center text-[18px]">Get The Best Pills From Us. We Guarantee Fast Supply And Delivery To Your Location.</p>
           </div>
         </section>
 
