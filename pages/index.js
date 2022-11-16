@@ -20,6 +20,7 @@ import shopByCategory from '../data/shopByCategory'
 import productShop from '../data/productShop'
 import productCategory from '../data/productCategory'
 import Footer from '../components/footer';
+import { useEffect, useState } from 'react'
 
 export default function Home() {
   const defaultSettings = {
@@ -64,11 +65,71 @@ export default function Home() {
     ...defaultSettings
   };
 
+  const [cacheData, setCacheData] = useState();
+  const [openModal, setOpenModal] = useState(false)
+
+  const getAllCacheData = async () => {
+    var url = window.location.href
+    var names = await caches.keys()
+    if(names.length>0){
+      setOpenModal(false)
+    }else{
+      setOpenModal(true)
+    }
+    var cacheDataArray = []
+
+    names.forEach(async (name) => {
+      const cacheStorage = await caches.open(name);
+      const cachedResponse = await cacheStorage.match(url);
+      var data = await cachedResponse.json()
+      cacheDataArray.push(data)
+      setCacheData(cacheDataArray.join(', '))
+    })
+  };  
+
+  const addDataIntoCache = (cacheName, url, response) => {
+    const data = new Response(JSON.stringify(response));
+
+    if ('caches' in window) {
+      caches.open(cacheName).then((cache) => {
+        cache.put(url, data);
+        setCacheData(response)
+      });
+    }
+
+  };
+
+  useEffect(() => {
+    getAllCacheData()
+  }, [])
+
+
   return (
     <div className='font-montserrat'>
       <Head>
         <title>FNF PHARMACY</title>
       </Head>
+
+      {!cacheData && openModal && <div className="modal-container fixed top-0 left-0 w-screen h-screen z-50 bg-white/95 backdrop-blur-md grid place-items-center">
+        <div className="text-center">
+          <div className="flex justify-center">
+            <Image src="/images/faviconImage.png" width={200} height={200} alt="" className='mb-[50px]' />
+          </div>
+          <p className="">Are You Over 18 Years Of Age?</p>
+          <div className="mt-2 mb-7 flex justify-center gap-5">
+            <div className="uppercase bg-gray-900 text-white w-16 h-12 rounded-md grid place-items-center text-sm"
+            onClick={() => { addDataIntoCache('MyCache', window.location.href, 'SampleData') }}
+            >Yes</div>
+            <div className="uppercase bg-blue-900 text-white w-16 h-12 rounded-md grid place-items-center text-sm"
+            onClick={() => { addDataIntoCache('MyCache', window.location.href, 'SampleData') }}
+            >No</div>
+          </div>
+          <div className="flex justify-center gap-5">
+            <input type="checkbox" name="" id="" />
+            <span className="">Remember Me</span>
+          </div>
+        </div>
+      </div>}
 
       <Link href="#contact" className="fixed top-[50%] right-0 translate-x-[45px] translate-y-[-50%] z-50 -rotate-90 uppercase bg-[#00A560] py-1 px-4 text-white font-bold text-xs rounded-t">contact us</Link>
 
@@ -140,7 +201,7 @@ export default function Home() {
             <legend className="mx-auto px-4 flex items-center gap-3 font-montserratAlternates">
               <GiShoppingBag /> SHOP BY CATOGORIES</legend>
           </fieldset>
-          
+
           <div className="overflow-hidden">
             <Slider {...settingsb}>
               {shopByCategory.map(product => {
@@ -230,7 +291,7 @@ export default function Home() {
 
         <section id='about' className="px-[6%] lg:px-[15%] my-16">
           <div className="flex flex-col items-center mb-10">
-            <h1 className="font-montserratAlternates text-[33.28px] font-semibold text-[#0970b0]">Order Weed From Cali Dispensary Store Online</h1>
+            <h1 className="font-montserratAlternates text-[33.28px] font-semibold text-[#0970b0]">Order Weed From FnF Pharmacy Online</h1>
             <div className="w-[70px] h-[3px] mt-3 bg-[#0970b0]"></div>
           </div>
 
@@ -288,7 +349,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          
+
           <div className="lg:w-1/2 border shadow-md rounded-md rounded-l-none py-8 px-10 flex gap-5">
             <div className=""><BsGift size={50} /></div>
             <div className="w-full">
