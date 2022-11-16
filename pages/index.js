@@ -383,7 +383,7 @@ const ProductShopCard = ({ product }) => {
       <div className="">
         <p className="">{product.title}</p>
         <div className="star"></div>
-        <div className="text-white font-bold">£{product.price}</div>
+        <div className="text-white font-bold">${product.price}</div>
       </div>
     </Link>
   </>)
@@ -415,7 +415,7 @@ const ProductCard = ({ product }) => {
               precision={0.5}
             />
           </div>}
-          <div className="text-[#111] text-[13.6px] md:text-[14px] font-bold ">£{product?.price}</div>
+          <div className="text-[#111] text-[13.6px] md:text-[14px] font-bold ">${product?.price}</div>
           <div className='my-1'>
             <Link href="/error" as={`/${product.category}`} className="uppercase border-2 font-bold py-1 px-[13.8px] md:px-5 border-[#446084] text-[#446084] hover:bg-[#065EAC] hover:text-white text-[10.88px] md:text-[.8rem]">Add to Cart</Link>
           </div>
@@ -451,7 +451,7 @@ const ProductCardRep = ({ product }) => {
               precision={0.5}
             />
           </div>}
-          <div className="text-[#111] text-[13.6px] md:text-[14px] font-bold ">£{product?.price}</div>
+          <div className="text-[#111] text-[13.6px] md:text-[14px] font-bold ">${product?.price}</div>
           <div className='my-1'>
             <Link href="/error" as={`/${product.category}`} className="uppercase border-2 font-bold py-1 px-[13.8px] md:px-5 border-[#446084] text-[#446084] hover:bg-[#065EAC] hover:text-white text-[10.88px] md:text-[.8rem]">Add to Cart</Link>
           </div>
