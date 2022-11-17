@@ -344,7 +344,7 @@ export default function Home() {
                 <BsEnvelope size={15} className="hidden md:block" />
                 <div className="flex flex-col md:flex-row md:gap-2 items-center">
                   <div>Send an email</div>
-                  <div className='text-[.5rem] md:text-[.8rem]'>(fnfpharmacist@gmail.com)</div>
+                  <div className='text-[.5rem] md:text-[.8rem]'>fnfpharmacist@gmail.com</div>
                 </div>
               </Link>
             </div>
